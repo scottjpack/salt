@@ -4,7 +4,7 @@
 Send json response data to Splunk via the HTTP Event Collector
 Requires the following config values to be specified in config or pillar:
 
-splunk_http_forwader:
+splunk_http_forwarder:
   token: <splunk_http_forwarder_token>
   indexer: <hostname/IP of Splunk indexer>
   sourcetype: <Destination sourcetype for data>
